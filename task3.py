@@ -1,5 +1,5 @@
 """
-Task 4: Pocket Money Records
+Task 3: Pocket Money Records
 You're building a small tracker for your younger sibling's weekly pocket money.
 The amounts (in naira) for the past 5 weeks are stored like this:
 money = [1000, 1200, 800, 1500, 1100]
@@ -10,3 +10,13 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+money = [1000, 1200, 800, 1500, 1100]
+
+sum = 1000 + 1200 + 800 + 1500 + 1100
+print("The total amout is",sum)
+
+money[2]= 1000
+print("The new list", money)
+print("The new list in reverse is ", money[::-1])
+print("The final result is now ", money)
