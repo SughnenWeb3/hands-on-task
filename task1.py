@@ -14,8 +14,10 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 meals.insert(4, "Miyan Taushe")
 print(meals)
-del meals[1]
+meals.remove("Masa")
 print("After removing masa", meals)
+meals.remove("Fura da Nono")
+meals.append("Fura da Nono")
 print("The meal in the middle is", meals[2:4])
 meals.sort()
 print(meals)
