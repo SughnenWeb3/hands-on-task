@@ -13,4 +13,10 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 meals.insert(4, "Miyan Taushe")
-print()
+print(meals)
+del meals[1]
+print("After removing masa", meals)
+print("The meal in the middle is", meals[2:4])
+meals.sort()
+print(meals)
+print("The new order is", meals)
